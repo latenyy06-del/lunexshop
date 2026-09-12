@@ -1,0 +1,58 @@
+gui-title: "&6&lLunexShop"
+size: 54
+
+items:
+  0:
+    material: DIAMOND
+    amount: 1
+    buy-price: 500.0
+    sell-price: 350.0
+    name: "&bDiamond"
+  1:
+    material: EMERALD
+    amount: 1
+    buy-price: 400.0
+    sell-price: 280.0
+    name: "&aEmerald"
+  2:
+    material: GOLD_INGOT
+    amount: 1
+    buy-price: 150.0
+    sell-price: 100.0
+    name: "&6Gold Ingot"
+  3:
+    material: IRON_INGOT
+    amount: 1
+    buy-price: 60.0
+    sell-price: 35.0
+    name: "&fIron Ingot"
+  4:
+    material: COAL
+    amount: 1
+    buy-price: 10.0
+    sell-price: 5.0
+    name: "&8Coal"
+  5:
+    material: OAK_LOG
+    amount: 1
+    buy-price: 8.0
+    sell-price: 4.0
+    name: "&2Oak Log"
+  6:
+    material: COBBLESTONE
+    amount: 1
+    buy-price: 2.0
+    sell-price: 1.0
+    name: "&7Cobblestone"
+  7:
+    material: WHEAT
+    amount: 1
+    buy-price: 3.0
+    sell-price: 1.5
+    name: "&eWheat"
+  8:
+    material: ROTTEN_FLESH
+    amount: 1
+    buy-price: -1
+    sell-price: 0.5
+    name: "&4Rotten Flesh"
