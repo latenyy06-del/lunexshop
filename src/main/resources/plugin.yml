@@ -1,0 +1,28 @@
+name: LunexShop
+version: '1.0.0'
+main: com.lunexshop.LunexShop
+api-version: '1.21'
+author: LunexShop
+description: Simple GUI shop plugin (/shop, /market) using Vault economy
+depend: [Vault]
+
+commands:
+  shop:
+    description: Open the LunexShop GUI
+    usage: /shop
+  market:
+    description: Alias for /shop
+    usage: /market
+  lshop:
+    description: Reload the shop configuration
+    usage: /lshop reload
+    permission: lunexshop.admin
+  sell:
+    description: Sell the item in your hand, or all matching items in your inventory
+    usage: /sell <hand|all>
+
+permissions:
+  lunexshop.use:
+    default: true
+  lunexshop.admin:
+    default: op
